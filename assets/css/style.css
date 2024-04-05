@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.task-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.task-card p {
+  margin: 15px;
+  font-size: 14px;
+}
+
+.task-card section {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.task-button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.task-button-container button{
+  background-color: red;
+  border-color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+#task-title-input {
+  display: inline-block;
+}
+
+#date {
+  display: inline-block;
+  padding: 1em;
+}
+
+#datepicker {
+  display: block;
+}
